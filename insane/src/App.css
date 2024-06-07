@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Playpen+Sans:wght@100..800&display=swap');
+body {
+    font-family: 'Playpen Sans', sans-serif;
+    background-color: #2f2b2b;
+    color: #fff;
+}
+
+.App {
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5px;
+    gap: 10px;
+}
+
+.add_container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.info_container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 5px;
+}
+
+input[type="text"],
+button {
+    appearance: none;
+    border: 0;
+    outline: none;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border-radius: 5px;
+    font-family: "Playpen Sans", cursive;
+}
+
+button {
+    font-weight: 600;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+.add {
+    background-color: #73addf;
+    color: #fff;
+    font-weight: 600;
+}
+
+.search_input {
+    width: 200px;
+}
+
+.search_table_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+table td,
+table th {
+    border: 1px solid #ddd;
+    padding: 0 5px;
+    max-width: 350px;
+    word-wrap: break-word;
+    text-align: left;
+    color: #fff;
+}
+
+table td {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+table tr:hover {
+    background-color: #3f3c3c;
+}
+
+tr th {
+    min-width: 70px;
+}
+
+table th {
+    padding-top: 6px;
+    padding-bottom: 6px;
+    text-align: left;
+    background-color: #04aa6d;
+    font-weight: 600;
+}
+
+.actions {
+    display: flex;
+    justify-content: center;
+    gap: 6px;
+}
+
+.edit {
+    background-color: #73addf;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.delete {
+    background-color: lightcoral;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+@media only screen and (max-width:600px) {
+    tr th {
+        min-width: unset;
+    }
+    table td {
+        font-size: 14px;
+    }
+    .actions {
+        flex-wrap: wrap;
+        gap: 2px;
+    }
+}
