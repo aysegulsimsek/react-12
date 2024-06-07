@@ -7,9 +7,6 @@ Insane Data Table
 Project: Insane
 Description: This project is a data table application built with React JS. It includes CRUD operations, search filter, and pagination features.
 Project Name
-
-Project: ProjectLink
-Description: Project description goes here.
 ...
 
 # How to Use
