@@ -1,0 +1,19 @@
+.light {
+    background-color: antiquewhite;
+    color: black;
+    width: 500px;
+    height: auto;
+}
+
+.dark {
+    background-color: rgb(37, 37, 37);
+    color: #fff;
+    width: 500px;
+    height: auto;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
